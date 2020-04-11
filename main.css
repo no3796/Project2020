@@ -4,4 +4,65 @@
  * Author: 이종민
  */
 
-.Main-title {color:red;}
+.Main-title {color:red;margin : 20px;}
+ul {
+    background: rgb(49, 49, 49);
+    height: 30px;
+    list-style: none;
+    margin: 0px;
+    padding: 15px 10px 8px;
+    width: 100%
+    }
+ul li {
+    float: left;
+    margin-right: 10px
+    }
+ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+
+    .home-title {
+        color: rgb(159, 185, 255);
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 50px;
+        }
+        
+        
+.article-bg {
+    background-color: rgb(140, 235, 179);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 300px;
+    padding: 15px;
+}
+
+article h2 {margin:50px;}
+section {margin:10px;
+         padding: 30px;
+         
+        }
+.box-1 {
+    display: inline;
+    border: 10px dotted black;
+    padding :50px;
+    margin : 10px;
+}
+
+.box-2 {
+    display: inline;
+    border: 10px solid black;
+    padding :20px;
+    margin: 30px;
+}
+
+.box-3 {
+    display: inline;
+    border: 10px solid gray;
+    padding :30px;
+    margin : 10px;
+    box-shadow: 5px 5px 3px 3px black;
+}

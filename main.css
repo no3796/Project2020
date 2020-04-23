@@ -1,7 +1,7 @@
 /*
- * File Name: main.css v0.2.0
- * Update: 2020.04.11
- * Author: 이종민
+ * File Name: main.css v0.4.0
+ * Update: 2020.04.24
+ * Author: no3796
  */
 
 .Main-title {color:red;margin : 20px;}
@@ -32,7 +32,7 @@ ul li a {
         }
         
         
-.article-bg {
+.article-bg1 {
     background-color: rgb(140, 235, 179);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -40,11 +40,19 @@ ul li a {
     padding: 15px;
 }
 
+.article-bg2 {
+    background-color: rgb(159, 143, 245);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 550px;
+    padding: 15px;
+}
+
 article h2 {margin:50px;}
-section {margin:10px;
-         padding: 30px;
-         
+.box-section {margin:10px;
+         padding: 30px;     
         }
+
 .box-1 {
     display: inline;
     border: 10px dotted black;
@@ -65,4 +73,33 @@ section {margin:10px;
     padding :30px;
     margin : 10px;
     box-shadow: 5px 5px 3px 3px black;
+}
+
+/* 멀티미디어 연습*/
+.img-size1 {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.img-size2 {
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+}
+
+.b-radius1 {
+    border-radius: 10%;
+}
+
+.b-radius2{
+    border-radius: 25%;
+}
+
+.b-radius3{
+    border-radius: 50%;
+}
+
+.b-radius4{
+    border-radius: 100%;
 }

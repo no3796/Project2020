@@ -1,4 +1,7 @@
 # Project2020 -이종민
+## 4월 27일 테이블 태그 연습
+>table tag연습<br/>
+
 ## 4월 24일 멀티미디어 태그 연습
 >img tag 연습 <br>
 audio 태그 연습 <br>

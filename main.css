@@ -1,6 +1,6 @@
 /*
- * File Name: main.css v0.6.0
- * Update: 2020.04.27
+ * File Name: main.css v0.7.0
+ * Update: 2020.05.08
  * Author: no3796
  */
 
@@ -15,13 +15,15 @@ ul {
     }
 ul li {
     float: left;
-    margin-right: 10px
+    margin-right: 10px;
     }
 ul li a {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 30px;
+    padding-right: 5px;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Nanum Pen Script', cursive;
     }
 
     .home-title {
@@ -161,6 +163,14 @@ tfoot td{
     color: white;
 }
 
+/*grid 연습*/
+.g-container {
+    background-color: rgb(135, 250, 112);
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
 .item1 {
     grid-column: 1 / span 3;
 }
@@ -194,9 +204,3 @@ tfoot td{
     text-align: center;
 }
 
-.g-container {
-    background-color: rgb(135, 250, 112);
-    display: grid;
-    grid-gap: 10px;
-    padding: 10px;
-}

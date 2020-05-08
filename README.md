@@ -1,4 +1,10 @@
 # Project2020 -이종민
+## 5월 8일 그리드,폰트,풀스크린 백그라운드,고스트버튼 연습
+>grid 연습<br/>
+>font 추가<br/>
+>full screen background에 parallax scrolling기법 적용<br/>
+>ghost button 연습<br/>
+
 ## 4월 27일 테이블 태그 연습
 >table tag연습<br/>
 

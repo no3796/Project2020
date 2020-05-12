@@ -1,6 +1,6 @@
 /*
- * File Name: main.css v0.8.0
- * Update: 2020.05.08
+ * File Name: main.css v0.9.0
+ * Update: 2020.05.12
  * Author: no3796
  */
 
@@ -63,6 +63,30 @@
     color: #fff;
 }
  /*main menu*/
+nav {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+nav a {padding-left: 15px;}
+
+li ul {
+    background: rgb(48, 48, 48);
+    display:none;
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    position:absolute;
+    width:160px;
+    z-index:200;
+}
+
+li:hover ul{
+    display:block; 
+}
+
 ul {
     background: rgb(49, 49, 49);
     height: 30px;
@@ -73,7 +97,7 @@ ul {
     }
 ul li {
     float: left;
-    margin-right: 10px;
+    margin-right: 40px;
     }
 ul li a {
     color: rgb(255, 255, 255);
@@ -84,6 +108,7 @@ ul li a {
     font-family: 'Nanum Pen Script', cursive;
     }
 
+    .home-title ul li a {padding-left: 10px;}
     .home-title {
         color: rgb(159, 185, 255);
         font-size: 20px;
@@ -262,3 +287,10 @@ tfoot td{
     text-align: center;
 }
 
+/*footer*/
+footer {
+    color :white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 0;
+}

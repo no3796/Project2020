@@ -1,6 +1,6 @@
 <!--
-  * File Name: index.html v0.8.0
-  * Update: 2020.05.08
+  * File Name: index.html v0.9.0
+  * Update: 2020.05.12
   * Author: 이종민
 -->
 <!DOCTYPE html>
@@ -14,6 +14,23 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap">
 </head>
 <body>
+  <nav>
+    <ul>
+      <li class="home-title">이종민</li>
+      <li><a href="#">one page</a><ul>
+      <li><a href="#1">박스</a></li>
+      <li><a href="#2">이미지</a></li>
+      <li><a href="#3">오디오,비디오</a></li>
+      <li><a href="#4">유튜브</a></li>
+      <li><a href="#5">테이블</a></li>
+      <li><a href="#6">그리드</a></li>
+    </ul></li>
+      
+    <li><a href="bs.html">bs</a></li>
+    <li><a href="#">메뉴2</a></li>
+    <li><a href="#">메뉴3</a></li>
+  </ul>
+  </nav>
   <header>
     <div class="full-bg">
       <div class="h-container">
@@ -25,17 +42,8 @@
     </div>
     
   </header>
-  <nav>
-    <ul>
-      <li class="home-title">이종민</li>
-      <li><a href="#">메뉴1</a></li>
-      <li><a href="#">메뉴2</a></li>
-      <li><a href="#">메뉴3</a></li>
-      <li><a href="#">메뉴4</a></li>
-      <li><a href="#">메뉴5</a></li>
-    </ul>
-  </nav>
-  <article class="article-bg1">
+  
+  <article class="article-bg1" id="1">
     <h2 class="box-h2">04월11일 : box model study</h2>
     <section class="box-section">
       <div class="box-1">박스1</div>
@@ -43,7 +51,7 @@
       <div class="box-3">박스3</div>
     </section>
   </article>
-  <article class="article-bg2">
+  <article class="article-bg2" id="2">
     <h1>4월 23일 멀티미디어 태그 연습 </h1>
     <h2>img tag 연습</h2>
     <section>
@@ -61,7 +69,7 @@
       <img class="img-size2 b-radius4"  src="./images/cat.jpg" alt="귀여운 고양이 사진">
     </section>
   </article>
-  <article class="article-bg3">
+  <article class="article-bg3" id="3">
     <h1>4월 24일 멀티미디어 태그 연습 </h1>
     <h2>audio,video tag 연습</h2>
     <section>
@@ -75,7 +83,7 @@
     </video>
   </section>
   </article>
-  <article class="article-bg4">
+  <article class="article-bg4" id="4">
     <h2>유튜브 동영상 삽입 연습</h2>
     <section>
       <!--여기에 삽입-->
@@ -84,7 +92,7 @@
     </section>
     <pre> 1회 재생                                                                                                                          자동,반복재생(음소거 되어있음)</pre>
   </article>
-  <article class="article-bg5">
+  <article class="article-bg5" id="5">
     <h1>4월27일 테이블 연습</h1>
     <section>
       <table>
@@ -123,7 +131,7 @@
       </table>
     </section>
   </article>
-  <article class="article-bg6">
+  <article class="article-bg6" id="6">
     <h1>05월 08일 그리드 연습</h1>
     <article class="g-container">
       <div class="g-item item1">CSS Grid</div>
@@ -138,7 +146,6 @@
       <div class="g-item item10">10</div>
     </article>  
    </article>
-  <aside>어사이드 영역</aside>
-  <footer>여기는 바닥 영역</footer>
+  <footer>Copyright 2020.이종민.All right reserved</footer>
 </body>
 </html>

@@ -1,4 +1,9 @@
 # Project2020 -이종민
+## 5월 12일 메뉴fix Copyright
+>메뉴에 링크달기,고정<br/>
+>Copyright 생성
+>bs.html 생성
+
 ## 5월 8일 그리드,폰트,풀스크린 백그라운드,고스트버튼 연습
 >grid 연습<br/>
 >font 추가<br/>

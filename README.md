@@ -1,4 +1,7 @@
 # Project2020 -이종민
+## 5월 29일 
+>dom 실습
+
 ## 5월 12일 메뉴fix Copyright
 >메뉴에 링크달기,고정<br/>
 >Copyright 생성

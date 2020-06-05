@@ -1,10 +1,14 @@
 # Project2020 -이종민
+## 6월 2일
+>jQuery 실습<br/>
+>jQuery Plug-in 연습
+
 ## 5월 29일 
 >dom 실습
 
 ## 5월 12일 메뉴fix Copyright
 >메뉴에 링크달기,고정<br/>
->Copyright 생성
+>Copyright 생성<br/>
 >bs.html 생성
 
 ## 5월 8일 그리드,폰트,풀스크린 백그라운드,고스트버튼 연습
